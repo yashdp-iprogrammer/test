@@ -11,7 +11,7 @@ audio_file_path = "/home/yashdp/Yash/test/Unlimited_calls_plan_hi.m4a"
 with open(audio_file_path, "rb") as file:
     transcription = client.audio.transcriptions.create(
         file=file,
-        model="whisper-large-v3",   # Groq Whisper model
+        model="whisper-large-v3", 
         response_format="json",
         language="hi"
     )
