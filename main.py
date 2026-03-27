@@ -16,6 +16,7 @@ with open(audio_file_path, "rb") as file:
         language="hi"
     )
 
+
 # Print result
 print("Transcription:")
 print(transcription.text)
